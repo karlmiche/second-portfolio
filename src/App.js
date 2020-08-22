@@ -10,6 +10,7 @@ function App() {
 
   useEffect(() => {
 
+    // trigger a color differential for the about section
     gsap.to(".aboutStuff", {
       color: "rgb(248, 235, 191)",
       backgroundColor: "rgb(100, 78, 221)",
@@ -25,11 +26,27 @@ function App() {
       }
     })
 
+    // trigger a color differential for the bird section
+    gsap.to(".ending", {
+      color: "rgb(248, 235, 191)",
+      backgroundColor: "rgb(100, 78, 221)",
+      ease: "power4.bounce",
+      duration: 5,
+      delay: 0.5,
+      scrollTrigger: {
+        trigger: ".ending",
+        start: "top 15%",
+        end: "top 100px",
+        scrub: true,
+        // markers: true
+      }
+    })
+
     // this will be a chart with pictures about NLP maybe, or results from the API   
     ScrollTrigger.create({
         trigger: '#chart-wrapper',
         endTrigger: '.step-4',
-        start: 'center top',
+        start: 'center 10%',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper').offsetHeight;
@@ -39,7 +56,7 @@ function App() {
         pinSpacing: false,
       });
           
-    // this will be a chart with pictures about NLP maybe, or results from the API   
+    // pin the project two 
     ScrollTrigger.create({
         trigger: '#chart-wrapper-two',
         endTrigger: '.step-8',
@@ -47,6 +64,20 @@ function App() {
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper-two').offsetHeight;
+            return `bottom ${chartHeight + (height - chartHeight) / 2}px`;
+        },
+        pin: true,
+        pinSpacing: false
+      });
+
+      // pin the project two 
+      ScrollTrigger.create({
+        trigger: '#chart-wrapper-three',
+        endTrigger: '.step-10',
+        start: 'center 10%',
+        end: () => {
+            const height = window.innerHeight;
+            const chartHeight = document.querySelector('#chart-wrapper-three').offsetHeight;
             return `bottom ${chartHeight + (height - chartHeight) / 2}px`;
         },
         pin: true,
@@ -142,6 +173,35 @@ function App() {
                   <button className="navBtn"><a href="https://karlmiche.github.io/origami_pet/">Live link</a></button>
                     <button className="navBtn"><a href="https://p2-glisten.herokuapp.com/home">Github Repo</a></button>
                   </section>
+              </div>
+
+              {/* project three section */}
+              <div className="container">
+                  <div className="bio-content" id="chart-wrapper-three">
+                  <h1 className="hi bio-hi">innervue</h1>
+                  <img className="portfolio-image" src="./innervue.png" />
+                  </div>
+                  <br></br>
+                  <section className="step-9 step">
+                    <h1>About innervue</h1>
+                    <p>innervue is a powerful sentiment analysis app built over 60+ hours of pair programming with two other junior web developers. The goal is for job-seekers to receive higher positivity scores over time. The concept for this app came from developer Neri Ramirez. This app was built with MongoDB, Express, React.js, Node.js, the Google Cloud Natural Language API, the IBM Watson Sentiment Analysis API, and the Web Speech API.</p>
+                    <p>Neri came up with this idea after our bootcamp's career coach mentioned that interviewees with positively framed interview answers seem more prepared. So far, I've learned a lot by using our app!</p>
+                  </section>
+                  <section className="step-10 step">
+                    <button className="navBtn"><a href="https://p2-glisten.herokuapp.com/home">Github Repo</a></button>
+                  </section>
+              </div>
+
+              {/* ending section */}
+              <div className="container ending" id="ending">
+                  <div className="bio-content">
+                  <div className="bird-container">
+                  <img className="center-bird" src="./Origami Pet.png"></img>
+                  <div className="speech-bubble">
+                    <h1>Thanks for stopping by!</h1>
+                    </div>
+                  </div>
+                  </div>
               </div>
       </div>
     </div>
