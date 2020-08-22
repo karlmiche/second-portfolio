@@ -21,7 +21,7 @@ function App() {
         start: "top 15%",
         end: "top 100px",
         scrub: true,
-        markers: true
+        // markers: true
       }
     })
 
@@ -29,7 +29,7 @@ function App() {
     ScrollTrigger.create({
         trigger: '#chart-wrapper',
         endTrigger: '.step-4',
-        start: 'center 40%',
+        start: 'center top',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper').offsetHeight;
@@ -43,7 +43,7 @@ function App() {
     ScrollTrigger.create({
         trigger: '#chart-wrapper-two',
         endTrigger: '.step-8',
-        start: 'center 40%',
+        start: 'center 10%',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper-two').offsetHeight;
@@ -90,7 +90,7 @@ function App() {
                 {/* these are the buttons */}
           <div className="button-container">
                   <button className="navBtn one"><a href="#project-one">Projects</a></button>
-                  <button className="navBtn two"><a href="mailto:karlymism@gmail.com">Contact</a></button>
+                  <button className="navBtn two"><a href="./KarlySmithResume.pdf">Resume</a></button>
                   <button className="navBtn three"><a href="#about">About Karly</a></button>
               </div>
           </div>
@@ -117,16 +117,8 @@ function App() {
                   </div>
                   <br></br>
                   <section className="step-1 step">
-                    <h1>Hello</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Massa massa ultricies mi quis hendrerit dolor. Lacus viverra vitae congue eu consequat ac felis. Eget velit aliquet sagittis id consectetur purus. Amet consectetur adipiscing elit duis. Nulla malesuada pellentesque elit eget gravida cum. A diam sollicitudin tempor id. Commodo quis imperdiet massa tincidunt nunc. Ultricies lacus sed turpis tincidunt. Gravida rutrum quisque non tellus orci ac auctor. Euismod quis viverra nibh cras pulvinar. Elit pellentesque habitant morbi tristique senectus et netus et. Sem integer vitae justo eget magna fermentum. Praesent tristique magna sit amet purus gravida quis.</p>
-                  </section>
-                  <section className="step-2 step">
-                    <h1>hello</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Massa massa ultricies mi quis hendrerit dolor. Lacus viverra vitae congue eu consequat ac felis. Eget velit aliquet sagittis id consectetur purus. Amet consectetur adipiscing elit duis. Nulla malesuada pellentesque elit eget gravida cum. A diam sollicitudin tempor id. Commodo quis imperdiet massa tincidunt nunc. Ultricies lacus sed turpis tincidunt. Gravida rutrum quisque non tellus orci ac auctor. Euismod quis viverra nibh cras pulvinar. Elit pellentesque habitant morbi tristique senectus et netus et. Sem integer vitae justo eget magna fermentum. Praesent tristique magna sit amet purus gravida quis.</p>
-                  </section>
-                  <section className="step-3 step">
-                    <h1>hello</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Massa massa ultricies mi quis hendrerit dolor. Lacus viverra vitae congue eu consequat ac felis. Eget velit aliquet sagittis id consectetur purus. Amet consectetur adipiscing elit duis. Nulla malesuada pellentesque elit eget gravida cum. A diam sollicitudin tempor id. Commodo quis imperdiet massa tincidunt nunc. Ultricies lacus sed turpis tincidunt. Gravida rutrum quisque non tellus orci ac auctor. Euismod quis viverra nibh cras pulvinar. Elit pellentesque habitant morbi tristique senectus et netus et. Sem integer vitae justo eget magna fermentum. Praesent tristique magna sit amet purus gravida quis.</p>
+                    <h1>About Origami Pet</h1>
+                    <p>A “Tamagotchi”-style pet game built with HTML5, CSS, and vanilla Javascript. Origami Pet utilizes conditional logic taken from the JavaScript Date Object - “needs” decrement based on seconds passed since a locally-stored timestamp, and increment (seconds are “added” to the locally stored timestamp) based on user click events. Each Pet created can be locally stored in a user’s browser - the result is a calm, sweet, and unique game-play.</p>
                   </section>
                   <section className="step-4 step">
                     <h1>hello</h1>
@@ -141,9 +133,10 @@ function App() {
                   <img className="portfolio-image" src="./glistenportfolio.png" />
                   </div>
                   <br></br>
-                  <section className="step-5 step"></section>
-                  <section className="step-6 step"></section>
-                  <section className="step-7 step"></section>
+                  <section className="step-5 step">
+                    <h1>About glisten</h1>
+                    <p>An app built with those who process orally in mind, glisten is an audio transcription app built with Node.js, Google Cloud Speech to Text, Google Cloud Storage, Sequelize, Express, EJS layouts, and the Web Speech API.</p>
+                  </section>
                   <section className="step-8 step"></section>
               </div>
       </div>
