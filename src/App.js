@@ -46,7 +46,7 @@ function App() {
     ScrollTrigger.create({
         trigger: '#chart-wrapper',
         endTrigger: '.step-4',
-        start: 'center 10%',
+        start: 'center 20%',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper').offsetHeight;
@@ -60,7 +60,7 @@ function App() {
     ScrollTrigger.create({
         trigger: '#chart-wrapper-two',
         endTrigger: '.step-8',
-        start: 'center 10%',
+        start: 'center 20%',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper-two').offsetHeight;
@@ -70,11 +70,11 @@ function App() {
         pinSpacing: false
       });
 
-      // pin the project two 
+      // pin the project three 
       ScrollTrigger.create({
         trigger: '#chart-wrapper-three',
         endTrigger: '.step-10',
-        start: 'center 10%',
+        start: 'center 20%',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper-three').offsetHeight;
