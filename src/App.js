@@ -121,8 +121,8 @@ function App() {
                     <p>A “Tamagotchi”-style pet game built with HTML5, CSS, and vanilla Javascript. Origami Pet utilizes conditional logic taken from the JavaScript Date Object - “needs” decrement based on seconds passed since a locally-stored timestamp, and increment (seconds are “added” to the locally stored timestamp) based on user click events. Each Pet created can be locally stored in a user’s browser - the result is a calm, sweet, and unique game-play.</p>
                   </section>
                   <section className="step-4 step">
-                    <h1>hello</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Massa massa ultricies mi quis hendrerit dolor. Lacus viverra vitae congue eu consequat ac felis. Eget velit aliquet sagittis id consectetur purus. Amet consectetur adipiscing elit duis. Nulla malesuada pellentesque elit eget gravida cum. A diam sollicitudin tempor id. Commodo quis imperdiet massa tincidunt nunc. Ultricies lacus sed turpis tincidunt. Gravida rutrum quisque non tellus orci ac auctor. Euismod quis viverra nibh cras pulvinar. Elit pellentesque habitant morbi tristique senectus et netus et. Sem integer vitae justo eget magna fermentum. Praesent tristique magna sit amet purus gravida quis.</p>
+                    <button className="navBtn"><a href="https://karlmiche.github.io/origami_pet/">Live link</a></button>
+                    <button className="navBtn"><a href="https://github.com/karlmiche/origami_pet">Github Repo</a></button>
                   </section>
               </div>
 
@@ -136,8 +136,12 @@ function App() {
                   <section className="step-5 step">
                     <h1>About glisten</h1>
                     <p>An app built with those who process orally in mind, glisten is an audio transcription app built with Node.js, Google Cloud Speech to Text, Google Cloud Storage, Sequelize, Express, EJS layouts, and the Web Speech API.</p>
+                    <p>My intended user is a busy academic who records many audio interviews while capturing data for social research. glisten is also good for people to play around with, to take voice notes with, and to transcribe long-winded clips of Gilmore Girls with (you don't want to miss all those jokes).</p>
                   </section>
-                  <section className="step-8 step"></section>
+                  <section className="step-8 step">
+                  <button className="navBtn"><a href="https://karlmiche.github.io/origami_pet/">Live link</a></button>
+                    <button className="navBtn"><a href="https://p2-glisten.herokuapp.com/home">Github Repo</a></button>
+                  </section>
               </div>
       </div>
     </div>
