@@ -121,7 +121,7 @@ function App() {
                 {/* these are the buttons */}
           <div className="button-container">
                   <button className="navBtn one"><a href="#project-one">Projects</a></button>
-                  <button className="navBtn two"><a href="./KarlySmithResume.pdf">Resume</a></button>
+                  <button className="navBtn two"><a href="./Karly Smith Resume.pdf">Resume</a></button>
                   <button className="navBtn three"><a href="#about">About Karly</a></button>
               </div>
           </div>
