@@ -106,6 +106,7 @@ function App() {
                       <p className="little-bio">When I'm not practicing my React skills or whipping up a MongoDB cluster, I'm usually hanging out with my cat, Pickle, teaching myself folk songs, or reconnecting with friends.
                       </p>
                   </div>
+                  <img src="./me2.png" className="circle"></img>
               </div>
 
             {/* this is project one */}
