@@ -145,6 +145,10 @@ function App() {
                   <div className="bio-content" id="chart-wrapper">
                   <h1 className="hi bio-hi">Origami Pet</h1>
                   <img className="portfolio-image" src="./portfolio.png" />
+                    <div className="projectBtn">
+                      <button className="navBtn"><a href="https://karlmiche.github.io/origami_pet/">Live link</a></button>
+                      <button className="navBtn"><a href="https://github.com/karlmiche/origami_pet">Github Repo</a></button>
+                    </div>
                   </div>
                   <br></br>
                   <section className="step-1 step">
@@ -152,8 +156,7 @@ function App() {
                     <p>A “Tamagotchi”-style pet game built with HTML5, CSS, and vanilla Javascript. Origami Pet utilizes conditional logic taken from the JavaScript Date Object - “needs” decrement based on seconds passed since a locally-stored timestamp, and increment (seconds are “added” to the locally stored timestamp) based on user click events. Each Pet created can be locally stored in a user’s browser - the result is a calm, sweet, and unique game-play.</p>
                   </section>
                   <section className="step-4 step">
-                    <button className="navBtn"><a href="https://karlmiche.github.io/origami_pet/">Live link</a></button>
-                    <button className="navBtn"><a href="https://github.com/karlmiche/origami_pet">Github Repo</a></button>
+                    <p>Don't forget to feed your pet! Time passes quickly.</p>
                   </section>
               </div>
 
@@ -162,16 +165,18 @@ function App() {
                   <div className="bio-content" id="chart-wrapper-two">
                   <h1 className="hi bio-hi">glisten</h1>
                   <img className="portfolio-image" src="./glistenportfolio.png" />
+                  <div>
+                    <button className="navBtn"><a href="https://p2-glisten.herokuapp.com/home">Live link</a></button>
+                    <button className="navBtn"><a href="https://github.com/karlmiche/KMS-p2-glisten">Github Repo</a></button>
+                  </div>
                   </div>
                   <br></br>
                   <section className="step-5 step">
                     <h1>About glisten</h1>
                     <p>An app built with those who process orally in mind, glisten is an audio transcription app built with Node.js, Google Cloud Speech to Text, Google Cloud Storage, Sequelize, Express, EJS layouts, and the Web Speech API.</p>
-                    <p>My intended user is a busy academic who records many audio interviews while capturing data for social research. glisten is also good for people to play around with, to take voice notes with, and to transcribe long-winded clips of Gilmore Girls with (you don't want to miss all those jokes).</p>
                   </section>
                   <section className="step-8 step">
-                  <button className="navBtn"><a href="https://karlmiche.github.io/origami_pet/">Live link</a></button>
-                    <button className="navBtn"><a href="https://p2-glisten.herokuapp.com/home">Github Repo</a></button>
+                  <p>My intended user is a busy academic who records many audio interviews while capturing data for social research. glisten is also good for people to play around with, to take voice notes with, and to transcribe long-winded clips of Gilmore Girls with (you don't want to miss all those jokes).</p>
                   </section>
               </div>
 
@@ -180,16 +185,18 @@ function App() {
                   <div className="bio-content" id="chart-wrapper-three">
                   <h1 className="hi bio-hi">innervue</h1>
                   <img className="portfolio-image" src="./innervue.png" />
+                  <div>
+                    <button className="navBtn"><a href="https://github.com/karlmiche/innervue-frontend">Frontend Repo</a></button>
+                    <button className="navBtn"><a href="https://github.com/karlmiche/innervue-backend">Backend Repo</a></button>
+                  </div>
                   </div>
                   <br></br>
                   <section className="step-9 step">
                     <h1>About innervue</h1>
                     <p>innervue is a powerful sentiment analysis app built over 60+ hours of pair programming with two other junior web developers. The goal is for job-seekers to receive higher positivity scores over time. The concept for this app came from developer Neri Ramirez. This app was built with MongoDB, Express, React.js, Node.js, the Google Cloud Natural Language API, the IBM Watson Sentiment Analysis API, and the Web Speech API.</p>
-                    <p>Neri came up with this idea after our bootcamp's career coach mentioned that interviewees with positively framed interview answers seem more prepared. So far, I've learned a lot by using our app!</p>
                   </section>
                   <section className="step-10 step">
-                    <button className="navBtn"><a href="https://github.com/karlmiche/innervue-frontend">Frontend Repo</a></button>
-                    <button className="navBtn"><a href="https://github.com/karlmiche/innervue-backend">Backend Repo</a></button>
+                  <p>Neri came up with this idea after our bootcamp's career coach mentioned that interviewees with positively framed interview answers seem more prepared. So far, I've learned a lot by using our app!</p>
                   </section>
               </div>
 
