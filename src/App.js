@@ -188,7 +188,8 @@ function App() {
                     <p>Neri came up with this idea after our bootcamp's career coach mentioned that interviewees with positively framed interview answers seem more prepared. So far, I've learned a lot by using our app!</p>
                   </section>
                   <section className="step-10 step">
-                    <button className="navBtn"><a href="https://p2-glisten.herokuapp.com/home">Github Repo</a></button>
+                    <button className="navBtn"><a href="https://github.com/karlmiche/innervue-frontend">Frontend Repo</a></button>
+                    <button className="navBtn"><a href="https://github.com/karlmiche/innervue-backend">Backend Repo</a></button>
                   </section>
               </div>
 
