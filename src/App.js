@@ -14,7 +14,7 @@ function App() {
       color: "rgb(248, 235, 191)",
       backgroundColor: "rgb(100, 78, 221)",
       ease: "power4.bounce",
-      duration: 10,
+      duration: 5,
       delay: 0.5,
       scrollTrigger: {
         trigger: ".aboutStuff",
@@ -29,7 +29,7 @@ function App() {
     ScrollTrigger.create({
         trigger: '#chart-wrapper',
         endTrigger: '.step-4',
-        start: 'top top',
+        start: 'center 40%',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper').offsetHeight;
@@ -43,7 +43,7 @@ function App() {
     ScrollTrigger.create({
         trigger: '#chart-wrapper-two',
         endTrigger: '.step-8',
-        start: 'top top',
+        start: 'center 40%',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper-two').offsetHeight;
