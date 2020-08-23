@@ -141,13 +141,16 @@ function App() {
               </div>
 
             {/* this is project one */}
-            <div className="container" id="project-one">
+            <div className="container p1" id="project-one">
                   <div className="bio-content" id="chart-wrapper">
                   <h1 className="hi bio-hi">Origami Pet</h1>
                   <img className="portfolio-image" src="./portfolio.png" />
                     <div className="projectBtn">
                       <button className="navBtn"><a href="https://karlmiche.github.io/origami_pet/">Live link</a></button>
                       <button className="navBtn"><a href="https://github.com/karlmiche/origami_pet">Github Repo</a></button>
+                    </div>
+                    <div className="responsive-container">
+                    <p className="responsive">A “Tamagotchi”-style pet game built with HTML5, CSS, and vanilla Javascript. Origami Pet utilizes conditional logic taken from the JavaScript Date Object - “needs” decrement based on seconds passed since a locally-stored timestamp, and increment (seconds are “added” to the locally stored timestamp) based on user click events. Each Pet created can be locally stored in a user’s browser - the result is a calm, sweet, and unique game-play.</p>
                     </div>
                   </div>
                   <br></br>
@@ -161,13 +164,16 @@ function App() {
               </div>
 
               {/* this is for project two */}
-              <div className="container">
+              <div className="container p2">
                   <div className="bio-content" id="chart-wrapper-two">
                   <h1 className="hi bio-hi">glisten</h1>
                   <img className="portfolio-image" src="./glistenportfolio.png" />
                   <div>
                     <button className="navBtn"><a href="https://p2-glisten.herokuapp.com/home">Live link</a></button>
                     <button className="navBtn"><a href="https://github.com/karlmiche/KMS-p2-glisten">Github Repo</a></button>
+                  </div>
+                  <div className="responsive-container">
+                  <p className="responsive">An app built with those who process orally in mind, glisten is an audio transcription app built with Node.js, Google Cloud Speech to Text, Google Cloud Storage, Sequelize, Express, EJS layouts, and the Web Speech API.</p>
                   </div>
                   </div>
                   <br></br>
@@ -181,13 +187,16 @@ function App() {
               </div>
 
               {/* project three section */}
-              <div className="container">
+              <div className="container p3">
                   <div className="bio-content" id="chart-wrapper-three">
                   <h1 className="hi bio-hi">innervue</h1>
                   <img className="portfolio-image" src="./innervue.png" />
                   <div>
                     <button className="navBtn"><a href="https://github.com/karlmiche/innervue-frontend">Frontend Repo</a></button>
                     <button className="navBtn"><a href="https://github.com/karlmiche/innervue-backend">Backend Repo</a></button>
+                  </div>
+                  <div className="responsive-container">
+                  <p className="responsive">innervue is a powerful sentiment analysis app built over 60+ hours of pair programming with two other junior web developers. The goal is for job-seekers to receive higher positivity scores over time. The concept for this app came from developer Neri Ramirez. This app was built with MongoDB, Express, React.js, Node.js, the Google Cloud Natural Language API, the IBM Watson Sentiment Analysis API, and the Web Speech API.</p>
                   </div>
                   </div>
                   <br></br>

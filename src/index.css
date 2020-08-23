@@ -196,6 +196,10 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 10px 10px rgb(100, 78, 221);
 }
 
+.responsive {
+  visibility: hidden;
+}
+
 .step-two {
   width: 20%;
   padding: 20px;
@@ -286,4 +290,100 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1,1);
   }
   }
+
+  /* for iphones */
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .step, .step-two {
+      visibility: hidden;
+    }
+
+    #chart-wrapper{
+      width: 90vw;
+    }
+
+    #chart-wrapper-two{
+      width: 90vw;
+    }
+
+    #chart-wrapper-three{
+      width: 90vw;
+    }
+
+    .portfolio-image {
+      width: 90vw;
+    }
+
+    .bird-container {
+      width: 90vw;
+    }
+
+    .ending {
+      visibility: hidden;
+    }
+
+    .circle {
+      width: 150px;
+      height: 150px;
+    }
+
+    .responsive-container {
+      width: 80vw;
+      text-align: left;
+      border: 1px solid rgb(100, 78, 221);
+      border-radius: 20px;
+      background-color: rgb(233, 118, 127);
+      color: white;
+      font-family: "Arial";
+      text-align: left;
+      box-shadow: 10px 10px rgb(100, 78, 221);
+      padding: 15px;
+    }
+
+    .responsive {
+      visibility: visible;
+      margin: 0 auto;
+    }
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .step, .step-two {
+      visibility: hidden;
+    }
+
+    #chart-wrapper{
+      width: 90vw;
+    }
+
+    #chart-wrapper-two{
+      width: 90vw;
+    }
+
+    #chart-wrapper-three{
+      width: 90vw;
+    }
+
+    .portfolio-image {
+      width: 90vw;
+    }
+
+    .bird-container {
+      width: 90vw;
+    }
+
+    .ending {
+      visibility: hidden;
+    }
+
+
+}
+
 
