@@ -46,7 +46,7 @@ function App() {
     ScrollTrigger.create({
         trigger: '#chart-wrapper',
         endTrigger: '.step-4',
-        start: 'center 50%',
+        start: 'center 45%',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper').offsetHeight;
@@ -60,7 +60,7 @@ function App() {
     ScrollTrigger.create({
         trigger: '#chart-wrapper-two',
         endTrigger: '.step-8',
-        start: 'center 50%',
+        start: 'center 45%',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper-two').offsetHeight;
@@ -74,7 +74,7 @@ function App() {
       ScrollTrigger.create({
         trigger: '#chart-wrapper-three',
         endTrigger: '.step-10',
-        start: 'center 50%',
+        start: 'center 45%',
         end: () => {
             const height = window.innerHeight;
             const chartHeight = document.querySelector('#chart-wrapper-three').offsetHeight;
@@ -202,7 +202,7 @@ function App() {
                   <br></br>
                   <section className="step-9 step">
                     <h1>About innervue</h1>
-                    <p>innervue is a powerful sentiment analysis app built over 60+ hours of pair programming with two other junior web developers. The goal is for job-seekers to receive higher positivity scores over time. The concept for this app came from developer Neri Ramirez. This app was built with MongoDB, Express, React.js, Node.js, the Google Cloud Natural Language API, the IBM Watson Sentiment Analysis API, and the Web Speech API.</p>
+                    <p>innervue is a powerful sentiment analysis app built over 60+ hours of pair programming with two other developers. The goal is for job-seekers to receive higher positivity scores over time. The concept for this app came from developer Neri Ramirez. This app was built with MongoDB, Express, React.js, Node.js, the Google Cloud Natural Language API, the IBM Watson Sentiment Analysis API, and the Web Speech API.</p>
                   </section>
                   <section className="step-10 step">
                   <p>Neri came up with this idea after our bootcamp's career coach mentioned that interviewees with positively framed interview answers seem more prepared. So far, I've learned a lot by using our app!</p>
