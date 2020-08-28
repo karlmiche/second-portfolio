@@ -382,8 +382,14 @@ h1, h2, h3, h4, h5, h6 {
     .ending {
       visibility: hidden;
     }
-
-
 }
 
+.skills-container{
+  background-color: darkorchid;
+  box-shadow: 3px 3px darkblue;
+  border-radius: 0.5em;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: "Lato";
+}
 

@@ -133,9 +133,8 @@ function App() {
                   <br></br>
                       <p className="little-bio">After a brief stint in the legal field, I felt I would be most effective helping clients once I had a hands-on part in solving their problems. I have always been interested in finding creative solutions to tough problems and love that tech has space for these.
                       </p>
+                      <div className="skills-container">Skills: HTML5, CSS, JavaScript, SQL Database, MongoDB, Sequelize, Node.js, Express, Git, GitHub, Postgres, RESTful routing, Google Cloud Console, Google Cloud APIs, Machine Learning, Speech Recognition, Browser APIs, TypeScript, Python</div>
                       <br></br><br></br>
-                      <p className="little-bio">When I'm not practicing my React skills or whipping up a MongoDB cluster, I'm usually hanging out with my cat, Pickle, teaching myself folk songs, or reconnecting with friends.
-                      </p>
                   </div>
                   <img src="./me2.png" className="circle"></img>
               </div>
