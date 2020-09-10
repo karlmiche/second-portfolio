@@ -193,6 +193,7 @@ function App() {
                   <div>
                     <button className="navBtn"><a href="https://github.com/karlmiche/innervue-frontend">Frontend Repo</a></button>
                     <button className="navBtn"><a href="https://github.com/karlmiche/innervue-backend">Backend Repo</a></button>
+                    <button className="navBtn"><a href="https://serene-bose-e0fdfb.netlify.app/">Live Link</a></button>
                   </div>
                   <div className="responsive-container">
                   <p className="responsive">innervue is a powerful sentiment analysis app built over 60+ hours of pair programming with two other junior web developers. The goal is for job-seekers to receive higher positivity scores over time. The concept for this app came from developer Neri Ramirez. This app was built with MongoDB, Express, React.js, Node.js, the Google Cloud Natural Language API, the IBM Watson Sentiment Analysis API, and the Web Speech API.</p>
